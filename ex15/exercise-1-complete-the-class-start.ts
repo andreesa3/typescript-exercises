@@ -7,9 +7,9 @@ class Currency {
     // Hint: Look at the type of values being passed when `new Currency()`
     // is called below.
 
-    private name: string = '';
-    private code: string = '';
-    private symbol: string = '';
+    private readonly name: string = '';
+    private readonly code: string = '';
+    private readonly symbol: string = '';
 
     // Add types to the constructor parameters.
 
