@@ -49,7 +49,12 @@ enum LanguageStatus {
     Secondary = 'secondary'
 }
 
-const countryLanguages = [
+interface Language {
+    language: string,
+    status: LanguageStatus
+}
+
+const countryLanguages: Language[] = [
     { language: "Spanish", status: LanguageStatus.Primary },
     { language: "English", status: LanguageStatus.Secondary },
 ];
