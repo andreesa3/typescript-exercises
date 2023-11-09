@@ -3,7 +3,7 @@
  */
 
 class Currency {
-    readonly name: string;
+    protected readonly name: string;
     private readonly code: string;
     private readonly symbol: string;
 
