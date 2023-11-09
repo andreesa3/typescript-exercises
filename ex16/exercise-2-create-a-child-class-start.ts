@@ -3,9 +3,9 @@
  */
 
 class Currency {
-    name: string;
-    private code: string;
-    private symbol: string;
+    readonly name: string;
+    private readonly code: string;
+    private readonly symbol: string;
 
     constructor(name: string, code: string, symbol: string) {
         this.name = name;
